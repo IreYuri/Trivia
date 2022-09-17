@@ -1,4 +1,4 @@
 # Trivia
-Trivia del anime Jujutsu Kaizen
+Trivia del anime Jujutsu Kaizen.
 
 https://replit.com/@IreYuri/ProyectoTriviaJujutsu-Kaisen
