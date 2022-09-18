@@ -14,7 +14,7 @@ NORMAL = '\x1b[0;m'
 YELLOWFONDO = '\033[1;33;43m'
 WHITENEGRITA = '\x1b[1;37m'
 WHITECURSIVA = '\033[3;37m'
-GREENTACHADO = '\x1b[7;32m'
+GREENFONDO = '\x1b[7;32;42m'
 BLUECURSIVA = '\033[3;34m'
 
 
@@ -106,7 +106,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO +"Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO +"Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   #Agregando a la lista de resultado
   listpoints.append(points)
@@ -144,7 +144,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL )
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL )
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -179,7 +179,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -214,7 +214,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -249,7 +249,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -284,7 +284,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -319,7 +319,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -354,7 +354,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -389,7 +389,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -424,7 +424,7 @@ while start_trivia == True: #si es True; se repite el ciclo
     print("Vamos a la siguiente! \n")
 
   #Conociendo tu puntaje
-  print(GREENTACHADO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
+  print(GREENFONDO + "Tu puntaje es:", points, "PUNTOS" + NORMAL)
   print()
   listpoints.append(points)
   time.sleep(2)
@@ -498,7 +498,7 @@ while start_trivia == True: #si es True; se repite el ciclo
   #Despedida y muestra de puntaje total
   print(WHITECURSIVA +"\n WHOUU GRACIAS POR JUGAR MI TRIVIA, ME DIVERTI MUCHO CONTIGO!!")
   print("\n Y REDOBLEEE DE TAMBORES (‘• ω • `) ♡"+ NORMAL)
-  print(GREENTACHADO +"SU PUNTAJE FINAL ES DE ", points, "PUNTOS"+ NORMAL)
+  print(GREENFONDO +"SU PUNTAJE FINAL ES DE ", points, "PUNTOS"+ NORMAL)
   print()
 
   #PREGUNTA SI DESEA REINTENTAR LA TRIVIA
