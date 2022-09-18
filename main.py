@@ -21,21 +21,21 @@ BLUECURSIVA = '\033[3;34m'
 
 # BIENVENIDA A LA TRIVIA DE JUJUTSU KAISEN - ANIME
 print(YELLOWFONDO + "✦✦✦  BIENVENIDO A MI TRIVIA DEL ANIME JUJUTSU KAIZEN  ✦✦✦\n" + NORMAL)
-print(WHITECURSIVA + "Aqui pondras a prueba tus conocimientos con 10 PREGUNTAS del anime, yeih!!\n" )
+print(WHITECURSIVA + "Aqui pondrás a prueba tus conocimientos con 10 PREGUNTAS del anime, yeih!!\n" )
 
 #Preguntaremos su nombre
 print("Mi nombre es Steffi-chan y te acompañare en esta travesia! \n " )
-n = input( "Cuentame, ¿Como quieres que te llame?\n")
+n = input( "Cuentame, ¿Cómo quieres que te llame?\n")
 name = n.capitalize()
 print("\nHi, %s." % name )
 print("ENCANTADA DE CONOCERTE!! UWU")
 
 # Es importante dar instrucciones sobre cómo jugar:
 print( WHITENEGRITA +
-"\nTe cuento %s," %name,"antes de iniciar la travesia de sabiduria,  necesitas saber esto... \n")
+"\nTe cuento %s," %name,"antes de iniciar la travesía de sabiduría,  necesitas saber esto... \n")
 
 print(
-    "Responder las siguientes preguntas escribiendo la letra de la alternativa en minuscula y presionando 'Enter' para enviar tu respuesta: \n" + NORMAL)
+    "Responder las siguientes preguntas escribiendo la letra de la alternativa en minúscula y presionando 'Enter' para enviar tu respuesta: \n" + NORMAL)
 
 #Preguntamos los animos 
 ready = input("¿Estas listo? Pon SI para avanzar --> ")
@@ -497,7 +497,7 @@ while start_trivia == True: #si es True; se repite el ciclo
 
   #Despedida y muestra de puntaje total
   print(WHITECURSIVA +"\n WHOUU GRACIAS POR JUGAR MI TRIVIA, ME DIVERTI MUCHO CONTIGO!!")
-  print("\n Y REBLOBLEEE DE TAMBORES (‘• ω • `) ♡"+ NORMAL)
+  print("\n Y REDOBLEEE DE TAMBORES (‘• ω • `) ♡"+ NORMAL)
   print(GREENTACHADO +"SU PUNTAJE FINAL ES DE ", points, "PUNTOS"+ NORMAL)
   print()
 
